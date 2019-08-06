@@ -12,6 +12,8 @@ links.forEach(link => {
       if (xhr.status >= 200 && xhr.status < 300) {
         let component = xhr.response;
         let main = document.getElementsByTagName("main")[0];
+        console.log(main);
+
         main.firstElementChild.remove();
         main.insertAdjacentHTML("afterbegin", component);
       }

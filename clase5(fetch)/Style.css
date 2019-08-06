@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  margin-top: auto;
+}
+
+h4 {
+  display: inline-block;
+}
