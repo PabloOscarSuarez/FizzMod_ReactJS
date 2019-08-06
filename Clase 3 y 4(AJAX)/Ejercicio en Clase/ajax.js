@@ -42,6 +42,9 @@ btn.addEventListener("click", () => {
     console.log("This always runs...");
   };
 
-  xhr.open("GET", "http://localhost:4000/productos");
+  xhr.open(
+    "GET",
+    "https://my-json-server.typicode.com/pablooscarsuarez/CRUD-React-Redux-REST_API-Axios/productos/"
+  );
   xhr.send();
 });

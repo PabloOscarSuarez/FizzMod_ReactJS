@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+      mi navbar se mantendra estatica siempre   
+     -->
+    <nav class="light-blue">
+      <div class="nav-wrapper">
+        <h4>Peticiones con ajax</h4>
+
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="./components/historia.html" class="components"
+              >Historia de nuestros productos</a
+            >
+          </li>
+          <li>
+            <a href="./components/tablaProductos.html" class="components"
+              >Tabla de productos</a
+            >
+          </li>
+          <li>
+            <a href="./components/contacto.html" class="components"
+              >Contactos</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 
+      mi container se modificara continuamente  
+     -->
+    <main class="container">
+      <div>
+        <h1>bienvenido a esta pagina</h1>
+      </div>
+    </main>
+
+    <!-- 
+      footer que se mantiene estatico siempre 
+     -->
+    <footer class="page-footer light-blue main">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">SPA JS VANILLA</h5>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2019 Copyright FIZZMOD (Practicas)
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/ajax.js"></script>
+  </body>
+</html>
