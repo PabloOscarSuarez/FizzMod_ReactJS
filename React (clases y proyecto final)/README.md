@@ -345,4 +345,3 @@ He tratado de mostrar el funcionamiento básico de ReactJS mientras he ido expon
 
 Espero haber facilitado tu transición a ReactJS, si ya lo conocías espero que el artículo te sirva como referencia.
 
-Si te ha gustado la entrada valora y comparte en tus redes sociales. No dudes en comentar dudas, aportes o sugerencias, estaré encantado de responder.
